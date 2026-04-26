@@ -2,13 +2,14 @@
 
 // src/components/App.tsx
 
-import Product from './Product';
 import Button from './Button';
+import Product from './Product';
 
 export default function App() {
   return (
     <>
       <h1>Best selling</h1>
+
       <Product
         name="Tacos With Lime"
         imgUrl="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?w=640"
